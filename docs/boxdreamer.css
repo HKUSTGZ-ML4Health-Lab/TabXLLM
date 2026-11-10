@@ -1,0 +1,103 @@
+@font-face{font-family:'Open Sans';src:url('assets/fonts/open-sans.ttf') format('truetype');font-weight:300 800;font-style:normal;font-display:swap}
+/* BoxDreamer composition: rounded cover, gradient heading, centered sections. */
+body.boxdreamer{background:#fff;color:#263747;font-family:'Open Sans',Arial,sans-serif;font-size:16px;line-height:1.6}
+.boxdreamer .paper-header{background:rgba(255,255,255,.95);border:1px solid #ffffff70;border-radius:20px;box-shadow:0 8px 32px #26374714;padding:32px;margin-bottom:32px;text-align:center;overflow:hidden}
+.boxdreamer h1{font-size:32px;font-weight:700;line-height:1.2;margin:0 0 16px;color:#3d7da9}
+.boxdreamer h1>span{background:linear-gradient(45deg,#4388b9,var(--purple));background-clip:text;-webkit-background-clip:text;color:transparent}
+.boxdreamer h1 .title-highlight{background:linear-gradient(45deg,var(--peach),var(--yellow));background-clip:text;-webkit-background-clip:text;color:transparent}
+.boxdreamer .title-mark{width:40px;height:40px;margin:0 9px 6px 0}
+.boxdreamer .conference-badge{display:inline-block;background:linear-gradient(120deg,var(--blue),var(--purple));color:#fff;font-size:22px;font-weight:700;line-height:1.4;border-radius:30px;padding:6px 22px;margin:0 0 12px;text-shadow:0 1px 3px #26374744;box-shadow:0 4px 12px #8b81bd35}
+.boxdreamer .conference-identity{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:12px}
+.boxdreamer .conference-identity .conference-badge{margin:0}
+.boxdreamer .conference-mark{display:block;flex-shrink:0;width:112px}
+.boxdreamer .conference-mark img{width:100%;height:auto}
+.boxdreamer .university-mark{display:block;width:300px;max-width:100%;margin:22px auto 13px}
+.boxdreamer .university-mark img{width:100%;height:auto}
+.boxdreamer .paper-header hr{margin:24px 0;border-top:2px solid #f0f1f3}
+.boxdreamer .authors{font-size:17.6px;font-weight:500;gap:0 8px;color:#347fae;line-height:1.8}
+.boxdreamer .authors>span:not(:last-child)::after{content:'•';color:#697783;margin-left:8px}
+.boxdreamer .affiliation{color:#394552;margin:8px 0 0;font-size:16px}
+.boxdreamer .author-note{font-size:12px;margin-top:6px}
+.boxdreamer .paper-links{gap:15px;margin-top:22px}
+.boxdreamer .paper-links a{border-radius:30px;padding:11px 28px;font-size:16px;font-weight:600;background:linear-gradient(45deg,#b1d9f5,#c8c1e2);color:#314557;background-size:180% 180%;box-shadow:0 1px 2px #8b81bd12}
+.boxdreamer .paper-links a:nth-child(3){background:linear-gradient(45deg,#c8c1e2,#f8cbba)}
+.boxdreamer .paper-links a:nth-child(4){background:linear-gradient(45deg,#f8cbba,#ffe77d)}
+.boxdreamer .paper-links a:hover{transform:translateY(-4px);box-shadow:0 8px 20px #8b81bd30;background-position:100% 50%}
+.boxdreamer .release-note{margin:13px 0 4px}
+.boxdreamer .paper-section{padding:26px 0 12px;margin:0 0 24px}
+.boxdreamer .paper-section>h2{font-size:28px;font-weight:700;color:#578fb9;text-align:center;position:relative;padding-bottom:17px;border-bottom:2px solid #f0f1f3;margin:0 0 23px}
+.boxdreamer .paper-section>h2::after{content:'';position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:50px;height:3px;background:linear-gradient(45deg,var(--blue),var(--purple),var(--peach));border-radius:2px}
+.boxdreamer .tldr{text-align:center;color:#4089ba;font-size:15px;font-weight:500;margin:0 0 30px}
+.boxdreamer .paper-figure{background:#fff;border:1px solid #eef0f4;border-radius:14px;padding:14px;box-shadow:0 5px 24px #2637470b}
+.boxdreamer .overview-figure{padding:18px;margin-bottom:28px;box-shadow:0 8px 30px #26374712}
+.boxdreamer .abstract-text{padding:15px 0 0;border-top:2px solid #f0f1f3;margin-top:28px}
+.boxdreamer .abstract-text strong{color:#3b7da8}
+.boxdreamer .benchmark-grid>div{background:#fff;border-top:3px solid var(--blue);padding:20px;border-radius:10px;box-shadow:0 3px 18px #26374708}
+.boxdreamer .benchmark-grid>div:nth-child(2){border-color:var(--purple)}.boxdreamer .benchmark-grid>div:nth-child(3){border-color:var(--peach)}
+.boxdreamer .bibtex-block{background:#fff;border:1px solid #e8e8ef;border-radius:12px;padding:24px;box-shadow:0 5px 24px #2637470b}
+.boxdreamer .bibtex-block pre{padding-top:0}
+.boxdreamer .bibtex-block button{position:absolute;top:12px;right:10px;display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:100px;border:0;border-radius:30px;padding:3px 14px;font-size:13px;font-weight:600;line-height:1.2;white-space:nowrap;background:linear-gradient(45deg,#b1d9f5,#c8c1e2);color:#314557;background-size:180% 180%;box-shadow:0 1px 2px #8b81bd12;transition:transform .2s,box-shadow .2s,background-position .2s}
+.boxdreamer .bibtex-block button .icon{width:16px;height:16px}
+.boxdreamer .bibtex-block button:hover{transform:translateY(-4px);box-shadow:0 8px 20px #8b81bd30;background-position:100% 50%}
+.boxdreamer .page-footer{padding:28px 0 34px;color:#7c8790;margin-top:28px;border-top:1px solid #eceef1}.boxdreamer .page-footer a{color:#5e89ae}
+/* A single, quiet results surface with three accessible evaluation tabs. */
+.boxdreamer .results-intro{max-width:770px;text-align:center;margin:0 auto 28px;color:#74818d;line-height:1.8;font-size:15px}
+.boxdreamer .results-explorer{position:relative;max-width:1040px;margin:30px auto 22px;background:#fff;border:1px solid #e9edf3;border-radius:20px;box-shadow:0 12px 42px #30435a08;overflow:hidden}
+.boxdreamer .results-explorer::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(100deg,#a3d3f3,#c7bfdf 55%,#f8d9ca 82%,#fff0b1)}
+.boxdreamer .results-toolbar{display:none;align-items:center;justify-content:space-between;gap:20px;padding:26px 30px 0}
+.boxdreamer .is-enhanced .results-toolbar{display:flex}
+.boxdreamer .results-tabs{display:grid;grid-template-columns:1.2fr 1fr 1fr;width:100%;gap:3px;background:#f3f5f9;border:1px solid #edf0f5;padding:4px;border-radius:11px}
+.boxdreamer .results-tabs button{border:0;background:transparent;border-radius:8px;padding:10px 18px;color:#7a8594;font-size:13px;line-height:1.6;font-weight:550;transition:color .15s;white-space:normal;min-width:0}
+.boxdreamer .tab-setting{display:block;font-size:13px;line-height:1.5}
+.boxdreamer .tab-task{display:block;font-size:11px;line-height:1.6;font-weight:400;color:#8a96a4;margin-top:2px}
+.boxdreamer .results-tabs button[aria-selected=true] .tab-task{color:#7b95ac}
+.boxdreamer .results-tabs button:hover{color:#416d94}
+.boxdreamer .results-tabs button[aria-selected=true]{background:#fff;color:#42749c;box-shadow:0 2px 7px #30435a12;font-weight:700}
+.boxdreamer .tab-label-short{display:none}
+.boxdreamer .results-toolbar-label{font-size:10px;color:#9ca6b4;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.boxdreamer .result-panel[hidden]{display:none}
+.boxdreamer .refined-table{margin:0;padding:28px 30px 20px}
+.boxdreamer .benchmark-card-head{position:relative;display:flex;justify-content:space-between;gap:26px;align-items:flex-start;padding-bottom:22px}
+.boxdreamer .table-kicker{color:#9288b4;text-transform:uppercase;letter-spacing:.1em;font-size:10px;font-weight:650;margin:0 0 9px}
+.boxdreamer .benchmark-card-head h3{font-size:22px;letter-spacing:-.4px;font-weight:700;color:#344b5c;margin:0 0 7px}
+.boxdreamer .benchmark-card-head .table-description{font-size:12px;color:#8c97a4;margin:0}
+.boxdreamer .dataset-count{display:inline-flex;align-items:center;gap:7px;border:1px solid #e9eff5;background:#fbfdff;border-radius:30px;padding:6px 11px;color:#8397aa;font-size:11px;white-space:nowrap;margin-top:18px}
+.boxdreamer .dataset-count .icon{width:13px;height:13px;color:#89b6d5}
+.boxdreamer .refined-table .table-scroll{border:0;border-radius:0;background:transparent}
+.boxdreamer .refined-table table{table-layout:fixed;border-collapse:separate;border-spacing:0;font-size:14px}
+.boxdreamer .refined-table th:first-child{width:54%}
+.boxdreamer .refined-table thead th{background:transparent;color:#7f8d9b;font-weight:600;padding:0 20px 15px;border-bottom:1px solid #e8edf3;vertical-align:bottom}
+.boxdreamer .refined-table thead th:first-child{padding-left:18px}
+.boxdreamer .refined-table .sort-button{gap:8px;font-size:12px}
+.boxdreamer .refined-table .column-label{display:flex;flex-direction:column;gap:4px;text-align:right;opacity:1;font-size:12px}
+.boxdreamer .refined-table .column-title{color:#6b7e90;opacity:1;font-size:12px}
+.boxdreamer .refined-table .column-subtitle{color:#a1abb6;opacity:1;font-weight:400;font-size:10px}
+.boxdreamer .refined-table .sort-indicator{opacity:0;font-size:11px;transition:opacity .15s}
+.boxdreamer .refined-table .sort-button:hover .sort-indicator,.boxdreamer .refined-table .sort-button:focus-visible .sort-indicator,.boxdreamer .refined-table [aria-sort] .sort-indicator{opacity:.65}
+.boxdreamer .refined-table tbody th,.boxdreamer .refined-table tbody td{height:59px;padding:15px 20px;border-bottom:1px solid #f0f3f6;vertical-align:middle;color:#596b7b;font-weight:400}
+.boxdreamer .refined-table tbody tr:last-child>*{border-bottom:0}
+.boxdreamer .refined-table tbody tr:hover{background:#fafcfe}
+.boxdreamer .refined-table tbody tr.ours{background:linear-gradient(100deg,#edf6fe 0%,#f1f3fc 60%,#f4f0f9 100%)}
+.boxdreamer .refined-table tbody tr.ours th{border-left:3px solid #a0c4e7;padding-left:15px}
+.boxdreamer .refined-table td.best,.boxdreamer .refined-table td.second{background:transparent!important;font-weight:400}
+.boxdreamer .model-identity{display:flex;align-items:center;gap:11px;text-align:left;min-width:0}
+.boxdreamer .model-mark{width:26px;height:26px;border-radius:7px;flex-shrink:0}
+.boxdreamer .model-dot{display:grid;place-items:center;width:26px;height:26px;flex-shrink:0}
+.boxdreamer .model-dot::before{content:'';width:6px;height:6px;border-radius:50%;background:#cbd6e1}
+.boxdreamer .model-name{font-size:13px;overflow-wrap:anywhere;line-height:1.5}
+.boxdreamer .ours .model-name{font-weight:750;color:#385d7d}
+.boxdreamer .ours-badge{font-size:9px;line-height:1.6;border:1px solid #dcd6ec;background:#ffffff85;border-radius:5px;padding:1px 6px;color:#9383b0;font-weight:600;white-space:nowrap}
+.boxdreamer .refined-table .score{display:inline-block;min-width:7ch;font-size:15px;line-height:1.4;letter-spacing:.015em;font-variant-numeric:tabular-nums}
+.boxdreamer .refined-table .best .score{color:#3d769f;font-weight:800}
+.boxdreamer .refined-table .second .score{text-decoration:underline;text-decoration-color:#c7bbdf;text-underline-offset:5px;text-decoration-thickness:2px}
+.boxdreamer .refined-table .ours .score{color:#496a90;font-weight:400}
+.boxdreamer .refined-table .ours .best .score{color:#3d769f;font-weight:800}
+.boxdreamer .refined-table .score.unreported{color:#bdc6d0}
+.boxdreamer .refined-protocol{max-width:970px;margin:0 auto;color:#919ca8;line-height:1.8;font-size:12px!important;padding:0 8px}
+@media(max-width:767px){.boxdreamer .tab-setting{font-size:10px;line-height:1.5}.boxdreamer .tab-task{font-size:9px;line-height:1.45;margin-top:4px}}
+@media(max-width:991px){.boxdreamer .results-toolbar-label{display:none}.boxdreamer .results-toolbar{justify-content:center}}
+@media(max-width:767px){.boxdreamer .results-intro{font-size:14px}.boxdreamer .results-explorer{border-radius:15px;margin-top:24px}.boxdreamer .results-toolbar{padding:19px 15px 0}.boxdreamer .results-tabs{width:100%;gap:2px;padding:3px}.boxdreamer .results-tabs button{flex:1;min-width:0;padding:9px 5px;font-size:11px}.boxdreamer .tab-label-full{display:none}.boxdreamer .tab-label-short{display:inline}.boxdreamer .refined-table{padding:24px 15px 17px}.boxdreamer .benchmark-card-head{display:block;padding-bottom:22px}.boxdreamer .table-kicker{font-size:8px;letter-spacing:.07em;max-width:calc(100% - 85px);min-height:17px;margin-bottom:7px}.boxdreamer .benchmark-card-head h3{font-size:18px;line-height:1.4;margin-bottom:7px}.boxdreamer .benchmark-card-head .table-description{font-size:11px;line-height:1.7}.boxdreamer .dataset-count{position:absolute;right:0;top:-4px;margin:0;padding:4px 8px;font-size:9px;gap:5px}.boxdreamer .dataset-count .icon{width:11px;height:11px}.boxdreamer .refined-table thead th{padding:0 6px 13px}.boxdreamer .refined-table thead th:first-child{padding-left:10px;width:47%}.boxdreamer .refined-table .column-title{font-size:10px}.boxdreamer .refined-table .column-subtitle{display:none}.boxdreamer .refined-table .sort-button{gap:2px}.boxdreamer .refined-table .sort-indicator{font-size:9px;display:none}.boxdreamer .refined-table tbody th,.boxdreamer .refined-table tbody td{height:56px;padding:12px 6px}.boxdreamer .refined-table tbody tr.ours th{padding-left:7px;border-left-width:2px}.boxdreamer .model-identity{gap:6px}.boxdreamer .model-mark,.boxdreamer .model-dot{width:21px;height:21px}.boxdreamer .model-dot::before{width:5px;height:5px}.boxdreamer .model-name{font-size:12px}.boxdreamer .ours-badge{display:none}.boxdreamer .refined-table .score{min-width:6ch;font-size:13px;letter-spacing:0}.boxdreamer .refined-protocol{font-size:10px!important;line-height:1.9;padding:0 3px}}
+@media(max-width:767px){.boxdreamer .paper-header{padding:25px 0 27px;border-radius:0 0 18px 18px;margin-bottom:18px}.boxdreamer h1{font-size:25px;line-height:1.35}.boxdreamer .title-mark{width:33px;height:33px;margin-bottom:5px}.boxdreamer .conference-badge{font-size:18px;margin-top:5px}.boxdreamer .authors{font-size:15px;gap:4px 10px}.boxdreamer .authors>span:not(:last-child)::after{display:none}.boxdreamer .affiliation{font-size:13px}.boxdreamer .paper-links{gap:10px;margin-top:20px}.boxdreamer .paper-links a{padding:10px 20px;font-size:14px;min-width:130px}.boxdreamer .release-note{font-size:10px}.boxdreamer .paper-section{padding-top:24px;margin-bottom:12px}.boxdreamer .paper-section>h2{font-size:24px}.boxdreamer .tldr{font-size:14px;margin-bottom:24px}.boxdreamer .paper-figure,.boxdreamer .overview-figure{padding:8px;border-radius:9px}.boxdreamer .bibtex-block{padding:16px}}
+
+@media(max-width:767px){.boxdreamer .bibtex-block button{top:8px;right:8px;min-width:84px;padding:3px 10px;font-size:12px;gap:6px}.boxdreamer .bibtex-block button .icon{width:14px;height:14px}}
+@media(max-width:767px){.boxdreamer .conference-identity{gap:12px}.boxdreamer .conference-identity .conference-badge{margin:0}.boxdreamer .conference-mark{width:92px}.boxdreamer .university-mark{width:260px;margin:18px auto 12px}}
